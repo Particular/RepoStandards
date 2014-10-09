@@ -108,5 +108,5 @@
       "SensitiveProperties": {}
     }
   ],
-  "Version" : %VERSION%
+  "Version" : "%VERSION%"
 }
