@@ -73,7 +73,7 @@
           "Environments": [],
           "Properties": {
             "Octopus.Action.Manual.ResponsibleTeamIds": "teams-everyone",
-            "Octopus.Action.Manual.Instructions": "Verify the draft release notes at https://github.com/Particular/#{Octopus.Project.Name}/releases"
+            "Octopus.Action.Manual.Instructions": "Verify the draft release notes"
           },
           "SensitiveProperties": {}
         }
