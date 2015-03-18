@@ -76,3 +76,6 @@ _ReSharper*/
 *.DotSettings.user
 
 src/scaffolding.config
+
+# Approval tests temp file
+*.received.*
