@@ -59,6 +59,7 @@
 *.psm1 text
 *.ps1 text
 *.md text
+*.DotSettings text
 *.txt text eol=crlf
 *.bat text eol=crlf
 
