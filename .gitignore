@@ -15,6 +15,7 @@ lib/sqlite/System.Data.SQLite.dll
 Samples/DataBus/storage
 packages
 PrecompiledWeb
+tempstorage
 core-only
 Release
 Artifacts
