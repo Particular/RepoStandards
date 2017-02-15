@@ -43,6 +43,7 @@ installer/ServiceControl-cache
 *.suo
 *.user
 *.json.lock
+*.lock.json
 *.userosscache
 *.sln.docstates
 .vs/
