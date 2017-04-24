@@ -17,6 +17,7 @@ Samples/DataBus/storage
 packages
 PrecompiledWeb
 tempstorage
+.devtransport
 core-only
 Release
 Artifacts
