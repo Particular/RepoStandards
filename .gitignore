@@ -3,7 +3,6 @@ deploy
 build32
 binaries
 *.vshost.*
-.nu
 _UpgradeReport.*
 *.cache
 *~
@@ -17,7 +16,6 @@ Samples/DataBus/storage
 packages
 PrecompiledWeb
 tempstorage
-.learningtransport
 core-only
 Release
 Artifacts
@@ -48,10 +46,6 @@ installer/ServiceControl-cache
 *.lock.json
 *.userosscache
 *.sln.docstates
-.vs/
-
-# mac temp file ignore
-.DS_Store
 
 # Build results
 [Dd]ebug/
@@ -78,7 +72,6 @@ TestResult.xml
 
 # NCrunch
 _NCrunch_*
-.*crunch*.local.xml
 
 # ReSharper is a .NET coding add-in
 _ReSharper*/
@@ -91,5 +84,10 @@ src/scaffolding.config
 *.received.*
 
 # JetBrains Rider
-.idea/
 *.sln.iml
+
+# ignore all . files and . folders but do not special repo files
+.*
+!/.gitignore
+!/.gitattributes
+!/.reposync.yml
