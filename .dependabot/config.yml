@@ -2,5 +2,4 @@ version: 1
 update_configs:
   - package_manager: "dotnet:nuget"
     directory: "/"
-    update_schedule: "weekly"
-    target_branch: "master"
+    update_schedule: "daily"
