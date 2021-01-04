@@ -1,0 +1,8 @@
+root = true
+
+[*.cs]
+
+dotnet_analyzer_diagnostic.severity = default
+
+# Code quality analysis
+dotnet_diagnostic.CA2007.severity = error
