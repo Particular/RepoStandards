@@ -53,7 +53,6 @@ dotnet_style_parentheses_in_other_operators = never_if_unnecessary:error
 dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:error
 
 # Expression-level preferences
-dotnet_diagnostic.IDE0017.severity = error
 dotnet_style_object_initializer = true:error
 
 dotnet_diagnostic.IDE0028.severity = error
