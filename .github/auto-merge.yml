@@ -5,3 +5,11 @@
 - match:
     dependency_name: moq
     update_type: all
+
+- match:
+    dependency_name: fody
+    update_type: all
+
+- match:
+    dependency_name: particular.packaging
+    update_type: all
