@@ -1,4 +1,8 @@
 - match:
+    dependency_name: FakeItEasy
+    update_type: all
+
+- match:
     dependency_name: FluentValidation
     update_type: all
 
@@ -11,6 +15,14 @@
     update_type: all
 
 - match:
+    dependency_name: Janitor.Fody
+    update_type: all
+
+- match:
+    dependency_name: McMaster.Extensions.CommandLineUtils
+    update_type: all
+
+- match:
     dependency_name: Microsoft.AspNetCore.Server.Kestrel
     update_type: all
 
@@ -19,7 +31,11 @@
     update_type: all
 
 - match:
-    dependency_name: Microsoft.CodeAnalysis.CSharp.Workspaces
+    dependency_name: Microsoft.Build.Utilities.Core
+    update_type: all
+
+- match:
+    dependency_name: Microsoft.DotNet.Analyzers.Compatibility
     update_type: all
 
 - match:
@@ -35,6 +51,10 @@
     update_type: all
 
 - match:
+    dependency_name: Mono.Cecil
+    update_type: all
+
+- match:
     dependency_name: Moq
     update_type: all
 
@@ -43,11 +63,19 @@
     update_type: all
 
 - match:
+    dependency_name: NuDoq
+    update_type: all
+
+- match:
     dependency_name: NUnit
     update_type: all
 
 - match:
     dependency_name: NUnit3TestAdapter
+    update_type: all
+
+- match:
+    dependency_name: Obsolete.Fody
     update_type: all
 
 - match:
@@ -72,6 +100,14 @@
 
 - match:
     dependency_name: PublicApiGenerator
+    update_type: all
+
+- match:
+    dependency_name: SimpleJson
+    update_type: all
+
+- match:
+    dependency_name: System.Diagnostics.PerformanceCounter
     update_type: all
 
 - match:
