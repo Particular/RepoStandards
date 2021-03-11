@@ -3,13 +3,81 @@
     update_type: all
 
 - match:
-    dependency_name: Moq
-    update_type: all
-    
-- match:
     dependency_name: Fody
     update_type: all
 
 - match:
+    dependency_name: GitVersionTask
+    update_type: all
+
+- match:
+    dependency_name: Microsoft.AspNetCore.Server.Kestrel
+    update_type: all
+
+- match:
+    dependency_name: Microsoft.AspNetCore.StaticFiles
+    update_type: all
+
+- match:
+    dependency_name: Microsoft.CodeAnalysis.CSharp.Workspaces
+    update_type: all
+
+- match:
+    dependency_name: Microsoft.NET.Test.Sdk
+    update_type: all
+
+- match:
+    dependency_name: Microsoft.PowerShell.5.ReferenceAssemblies
+    update_type: all
+
+- match:
+    dependency_name: Microsoft.SourceLink.GitHub
+    update_type: all
+
+- match:
+    dependency_name: Moq
+    update_type: all
+
+- match:
+    dependency_name: NETStandard.Library
+    update_type: all
+
+- match:
+    dependency_name: NUnit
+    update_type: all
+
+- match:
+    dependency_name: NUnit3TestAdapter
+    update_type: all
+
+- match:
+    dependency_name: Particular.Approvals
+    update_type: all
+
+- match:
+    dependency_name: Particular.CodeRules
+    update_type: all
+
+- match:
     dependency_name: Particular.Packaging
+    update_type: all
+
+- match:
+    dependency_name: Particular.PlatformSample.ServiceControl
+    update_type: all
+
+- match:
+    dependency_name: Particular.PlatformSample.ServicePulse
+    update_type: all
+
+- match:
+    dependency_name: PublicApiGenerator
+    update_type: all
+
+- match:
+    dependency_name: xunit
+    update_type: all
+
+- match:
+    dependency_name: xunit.runner.visualstudio
     update_type: all
