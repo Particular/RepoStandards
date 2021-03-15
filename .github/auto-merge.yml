@@ -59,15 +59,7 @@
     update_type: all
 
 - match:
-    dependency_name: NETStandard.Library
-    update_type: all
-
-- match:
     dependency_name: NuDoq
-    update_type: all
-
-- match:
-    dependency_name: NUnit
     update_type: all
 
 - match:
