@@ -83,6 +83,14 @@
     update_type: all
 
 - match:
+    dependency_name: PublicApiGenerator
+    update_type: all
+
+- match:
+    dependency_name: SimpleJson
+    update_type: all
+
+- match:
     dependency_name: System.Diagnostics.PerformanceCounter
     update_type: all
 
