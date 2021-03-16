@@ -11,10 +11,6 @@
     update_type: all
 
 - match:
-    dependency_name: GitVersionTask
-    update_type: all
-
-- match:
     dependency_name: Janitor.Fody
     update_type: all
 
@@ -28,10 +24,6 @@
 
 - match:
     dependency_name: Microsoft.AspNetCore.StaticFiles
-    update_type: all
-
-- match:
-    dependency_name: Microsoft.Build.Utilities.Core
     update_type: all
 
 - match:
@@ -88,14 +80,6 @@
 
 - match:
     dependency_name: Particular.PlatformSample.ServicePulse
-    update_type: all
-
-- match:
-    dependency_name: PublicApiGenerator
-    update_type: all
-
-- match:
-    dependency_name: SimpleJson
     update_type: all
 
 - match:
