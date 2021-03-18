@@ -11,6 +11,10 @@
     update_type: all
 
 - match:
+    dependency_name: GitVersionTask
+    update_type: all
+
+- match:
     dependency_name: Janitor.Fody
     update_type: all
 
