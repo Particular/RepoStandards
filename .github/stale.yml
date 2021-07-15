@@ -4,6 +4,7 @@ daysUntilStale: 30
 daysUntilClose: 7
 exemptLabels:
   - dependencies
+exemptMilestones: true
 staleLabel: stale
 markComment: >
   This pull request has been automatically marked as stale because it has not had
