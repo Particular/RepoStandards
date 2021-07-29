@@ -9,3 +9,10 @@ updates:
   ignore:
     # Particular.Analyzers updates are distributed via RepoStandards
     - dependency-name: "Particular.Analyzers"
+    # Changing this dependency affects the .NET SDK and Visual Studio version supported by 
+    # a Roslyn analyzer, updates should be more intentional than an automated update
+    - dependency-name: "Microsoft.CodeAnalysis.CSharp.Workspaces"
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: daily
