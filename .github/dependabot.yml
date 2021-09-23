@@ -6,6 +6,7 @@ updates:
     interval: daily
   labels:
     - "dependencies"
+    - "NuGet"
   open-pull-requests-limit: 10
   ignore:
     # Particular.Analyzers updates are distributed via RepoStandards
