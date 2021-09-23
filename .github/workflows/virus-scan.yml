@@ -14,4 +14,4 @@ jobs:
           tag: ${{ github.event.release.name }}
           github-access-token: ${{ secrets.RELEASE_ANTIVIRUS_GITHUB_ACCESS_TOKEN_PBOT4 }}
           slack-token: ${{ secrets.SLACK_TOKEN }}
-          slack-channel: buildserver
+          slack-channel: ${{ secrets.VIRUS_REPORTING_SLACK_CHANNEL }}
