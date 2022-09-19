@@ -2,7 +2,7 @@ name: StaleBot
 on:
   workflow_dispatch:
   schedule:
-  - cron: "0 0/12 * * *"
+  - cron: "0 0 * * *"
 jobs:
   stalebot:
     runs-on: ubuntu-latest
