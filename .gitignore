@@ -1,8 +1,8 @@
 /assets
-nugets
-deploy
+/binaries
+/deploy
+/nugets
 build32
-binaries
 *.vshost.*
 .nu
 _UpgradeReport.*
