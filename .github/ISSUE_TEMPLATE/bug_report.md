@@ -33,6 +33,12 @@ Please list the version of the relevant packages or applications in which the bu
  - OS: [e.g. Windows 10 build 1803]
  - .NET Version [e.g. .NET Core 2.1.300]
 
+ 
+##Workarounds (if any)
+If there are any workarounds, please describe here
+
+##Possible solution (if any)
+If there are any possible solutions, please describe here
 
 ##Additional context
 Add any other context about the problem here.
