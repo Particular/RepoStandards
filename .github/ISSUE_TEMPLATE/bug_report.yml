@@ -14,7 +14,6 @@ body:
       label: What happend? 
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -23,7 +22,6 @@ body:
       label: Steps to reproduce
       description: How can this be reproduced?
       placeholder: Tell us how to reproduce the bug
-      value: ""
     validations:
       required: false
   - type: textarea
@@ -38,7 +36,6 @@ body:
       label: Logs
       description: Add logs here
       placeholder:
-      value: ""
     validations:
       required: false  
     
