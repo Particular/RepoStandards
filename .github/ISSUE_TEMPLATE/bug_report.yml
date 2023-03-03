@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report! 
-        To see all support channels go to [github.com](https://github.com/awright18)
+        To see all support channels go to [particular.net/support](https://particular.net/support)
   - type: textarea
     id: what-happened
     attributes:
