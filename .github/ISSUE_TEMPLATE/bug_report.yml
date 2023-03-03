@@ -1,29 +1,31 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
 labels: ["bug", ]
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report! 
+      value: |     
         For additional support options visit [particular.net/support](https://particular.net/support)
   - type: textarea
     id: what-happened
     attributes:
-      label: What happend? 
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      label: Describe the bug 
+      description: A clear and concise description of what the bug is.    
+      value: | 
+        **Description**
+        
+        **Expected behavior**
+                
+        **Versions** - Please list the version of the relevant packages or applications in which the bug exists.        
     validations:
       required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
-      description: How can this be reproduced?
-      placeholder: Tell us how to reproduce the bug
+      description: Detailed instructions on how to reproduce the bug.
     validations:
-      required: false
+      required: true
   - type: textarea
     id: logs
     attributes:
@@ -31,11 +33,15 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: textarea
-    id: Versions
+    id: additional-information
     attributes:
-      label: Logs
-      description: Add logs here
-      placeholder:
+      label: Additional Information
+      description: If there are any possible solutions, workarounds, or additional information please describe here
+      value: | 
+       **Workarounds** 
+       
+       **Possible Solutions**
+       
+       **Additional Information**
     validations:
-      required: false  
-    
+      required: false
