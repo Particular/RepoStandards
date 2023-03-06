@@ -10,7 +10,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Describe the new requested feature.
+      label: Describe the feature.
+
       description: A clear and concise description of what the feature is.    
       value: | 
         **Is your feature related to a problem? Please describe.**
