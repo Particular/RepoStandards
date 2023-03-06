@@ -12,11 +12,15 @@ body:
       label: Describe the bug 
       description: A clear and concise description of the bug.
       value: | 
-        **Description**
+        ## Description
         
-        **Expected behavior**
-                
-        **Versions** - Please list the version of the relevant packages or applications in which the bug exists.        
+        ## Expected behavior
+        
+        ## Actual behavior
+        
+        ## Versions
+        
+        Please list the version of the relevant packages or applications in which the bug exists.        
     validations:
       required: true
   - type: textarea
