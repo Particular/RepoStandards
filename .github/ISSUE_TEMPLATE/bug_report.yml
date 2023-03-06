@@ -42,10 +42,10 @@ body:
       label: Additional Information
       description: If there are any possible solutions, workarounds, or additional information please describe them here
       value: | 
-       **Workarounds** 
+       ## Workarounds
        
-       **Possible Solutions**
+       ## Possible solutions
        
-       **Additional Information**
+       ## Additional information
     validations:
       required: false
