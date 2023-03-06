@@ -1,4 +1,4 @@
-name: Improvement Request
+name: Improvement request
 description: Suggest an improvement to an existing code base.
 labels: ["Improvement" ]
 body:
