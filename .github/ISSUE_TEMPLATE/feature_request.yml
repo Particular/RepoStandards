@@ -5,7 +5,8 @@ body:
   - type: markdown
     attributes:
       value: | 
-        Please check the open and closed issues to see if the feature has already been requested.
+        Please check all open and closed issues to see if the feature has already been requested.
+
   - type: textarea
     id: description
     attributes:
