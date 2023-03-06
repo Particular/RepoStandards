@@ -15,7 +15,8 @@ body:
       value: | 
         **Is your feature related to a problem? Please describe.**
         
-        **Describe the requeste feature**
+        **Describe the requested feature**
+
                 
         **Describe alternatives you've considered**
     validations:
