@@ -1,8 +1,16 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+ 
+  - name: Particular support
+    url: https://particular.net/support
+    about: Please contact us to discuss your support needs.
+  - name: Particular Community Support
+    url: https://discuss.particular.net/
+    about: Reach out to the particular discourse community.
+  - name: Particular consulting
+    url: https://particular.net/consulting
+    about: Looking for a quick assessment of your major architectural choices before starting a large development effort.
+  - name: Particular onsite tranining
+    url: https://particular.net/onsite-training
+    about: Please contact us for any onsite training.
+
