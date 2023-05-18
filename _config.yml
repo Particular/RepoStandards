@@ -1,0 +1,19 @@
+excludeOnPrivateRepo:
+- LICENSE.md
+- CONTRIBUTING.md
+- src/NServiceBus.snk
+- src/NServiceBusTests.snk
+- .github/SUPPORT.md
+- .github/workflows/virus-scan.yml
+- .github/ISSUE_TEMPLATE/config.yml
+- .github/ISSUE_TEMPLATE/bug_report.yml
+- .github/ISSUE_TEMPLATE/feature_request.yml
+- .github/ISSUE_TEMPLATE/improvement_request.yml
+excludeOnReleaseBranch:
+- .github/SUPPORT.md
+- .github/ISSUE_TEMPLATE/config.yml
+- .github/ISSUE_TEMPLATE/bug_report.yml
+- .github/ISSUE_TEMPLATE/feature_request.yml
+- .github/ISSUE_TEMPLATE/improvement_request.yml
+- .github/workflows/stale.yml
+- .github/dependabot.yml
