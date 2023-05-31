@@ -18,7 +18,7 @@ NServiceBus is the industry-leading platform for building and monitoring message
 ## Getting started
 
 - Visit the [NServiceBus Quick Start](https://docs.particular.net/tutorials/quickstart/) to learn how NServiceBus will help you build better software systems.
-- Visit the [NServiceBus step-by-step tutorial](https://docs.particular.net/tutorials/nservicebus-step-by-step/) to learn how to build NServiceBus systems, including how to send commands, manage multiple message endpoints, publish events, and retry errors.
+- Visit the [NServiceBus step-by-step tutorial](https://docs.particular.net/tutorials/nservicebus-step-by-step/) to learn how to build NServiceBus systems, including how to send commands, publish events, manage multiple message endpoints, and retry errors.
 - Install the [ParticularTemplates NuGet package](https://www.nuget.org/packages/ParticularTemplates) to get NServiceBus templates you can use to bootstrap projects using either `dotnet new` or within Visual Studio.
 - Check out our other [tutorials](https://docs.particular.net/tutorials/) and [samples](https://docs.particular.net/samples/).
 - Get [help with a proof-of-concept](https://particular.net/proof-of-concept).
