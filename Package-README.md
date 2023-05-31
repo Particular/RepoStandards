@@ -4,7 +4,7 @@
 
 ## NServiceBus
 
-NServiceBus is the industry-leading platform for building and monitoring message-driven or event-driven applications on .NET including:
+NServiceBus is the industry-leading platform for building and monitoring message-driven or event-driven .NET applications. With NServiceBus, you can:
 
 - Encapsulate business logic in message handlers
 - Orchestrate long-running business processes with sagas
