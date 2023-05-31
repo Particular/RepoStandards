@@ -4,6 +4,8 @@ This repository contains mandatory files that all repositories should have.
 
 ## Workflow
 
+> _**IMPORTANT**: Because changes to this repository creates many PRs in many repositories, PRs in this repository should not be merged lightly. If possible, try to stage multiple PRs and merge them as a group to limit the amount of PRs that must go through the CI pipeline._
+
 * Changes to this repository are made via PRs. 
 * Automation detects changes to this repository on a schedule and opens PRs against other repositories.
 * Changes will be applied to the default branch plus any `release-*` branches of a target repository containing a `.reposync.yml` marker file.
