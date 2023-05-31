@@ -11,6 +11,9 @@ NServiceBus is the industry-leading platform for building and monitoring message
 - Run on-premises, in the cloud, in containers, or serverless
 - Monitor and respond to failures using included platform tooling
 - Observe system performance using Open Telemetry integration
+
+NServiceBus includes:
+
 - Support for Azure Service Bus, Azure Storage Queues, Amazon SQS/SNS, RabbitMQ, and using Microsoft SQL Server tables as queues
 - Support for storing data in multiple flavors of SQL, Azure Cosmos DB, Azure Table Storage, Amazon DynamoDB, MongoDB, and RavenDB
 - 24x7 commercial support from a team of dedicated support engineers located around the world
