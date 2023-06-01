@@ -1,10 +1,12 @@
-**Build, version, and monitor better microservices with the most powerful service platform for .NET**
+## About this package
 
-> This README is included with all NServiceBus NuGet packages. Click the **Project website** link in the NuGet sidebar to access specific documentation for this package.
+This NuGet package is part of the [Particular Service Platform](https://particular.net/service-platform), which includes [NServiceBus](https://particular.net/nservicebus) and tools to monitor and debug distributed systems.
 
-## NServiceBus
+Click the **Project website** link in the NuGet sidebar to access specific documentation for this package.
 
-NServiceBus is the industry-leading platform for building and monitoring message-driven or event-driven .NET applications. With NServiceBus, you can:
+## About NServiceBus
+
+With NServiceBus, you can:
 
 - Encapsulate business logic in message handlers
 - Orchestrate long-running business processes with sagas
@@ -15,7 +17,7 @@ NServiceBus is the industry-leading platform for building and monitoring message
 NServiceBus includes:
 
 - Support for Azure Service Bus, Azure Storage Queues, Amazon SQS/SNS, RabbitMQ, and using Microsoft SQL Server tables as queues
-- Support for storing data in multiple flavors of SQL, Azure Cosmos DB, Azure Table Storage, Amazon DynamoDB, MongoDB, and RavenDB
+- Support for storing data in Microsoft SQL Server, MySQL, PostgreSQL, Oracle, Azure Cosmos DB, Azure Table Storage, Amazon DynamoDB, MongoDB, and RavenDB
 - 24x7 commercial support from a team of dedicated support engineers located around the world
 
 ## Getting started
@@ -35,7 +37,6 @@ NServiceBus includes:
 ## Packages
 
 - [NServiceBus](https://www.nuget.org/packages/NServiceBus)
-- [NServiceBus.Testing](https://www.nuget.org/packages/NServiceBus.Testing)
 
 ### Transports
 
@@ -89,6 +90,7 @@ NServiceBus includes:
 
 ### Other
 
+- [NServiceBus.Testing](https://www.nuget.org/packages/NServiceBus.Testing)
 - [NServiceBus.Encryption.MessageProperty](https://www.nuget.org/packages/NServiceBus.Encryption.MessageProperty)
 - [NServiceBus.TransactionalSession](https://www.nuget.org/packages/NServiceBus.TransactionalSession)
 - [NServiceBus.Callbacks](https://www.nuget.org/packages/NServiceBus.Callbacks)
@@ -96,3 +98,12 @@ NServiceBus includes:
 - [NServiceBus.DataBus.BinarySerializer](https://www.nuget.org/packages/NServiceBus.DataBus.BinarySerializer)
 - [NServiceBus.UniformSession](https://www.nuget.org/packages/NServiceBus.UniformSession)
 - [NServiceBus.Wcf](https://www.nuget.org/packages/NServiceBus.Wcf)
+
+### Tooling packages
+
+- [Particular.TimeoutMigration](https://www.nuget.org/packages/Particular.TimeoutMigration)
+- [Particular.AzureTable.Export](https://www.nuget.org/packages/Particular.AzureTable.Export)
+- [Particular.EndpointThroughputCounter](https://www.nuget.org/packages/Particular.EndpointThroughputCounter)
+- [ServiceControl.Contracts](https://www.nuget.org/packages/ServiceControl.Contracts)
+- [ServiceControl.Monitoring.Data](https://www.nuget.org/packages/ServiceControl.Monitoring.Data)
+- [ServiceControl.TransportAdapter](https://www.nuget.org/packages/ServiceControl.TransportAdapter)
