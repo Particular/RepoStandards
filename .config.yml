@@ -1,0 +1,22 @@
+excludeOnPrivateRepo:
+  # Repos without public users don't need this stuff
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - .github/SUPPORT.md
+  - .github/ISSUE_TEMPLATE/config.yml
+  
+  # Code in private repos isn't generally signed
+  - src/NServiceBus.snk
+  - src/NServiceBusTests.snk
+  
+  # No GitHub release artifacts to scan
+  - .github/workflows/virus-scan.yml
+excludeOnReleaseBranch:
+  # GitHub only reads this info on the default branch
+  - .github/SUPPORT.md
+  - .github/ISSUE_TEMPLATE/config.yml
+  - .github/ISSUE_TEMPLATE/bug_report.yml
+  - .github/ISSUE_TEMPLATE/feature_request.yml
+  - .github/ISSUE_TEMPLATE/improvement_request.yml
+  - .github/workflows/stale.yml
+  - .github/dependabot.yml
