@@ -80,6 +80,7 @@ NServiceBus includes:
 - [NServiceBus.Heartbeat](https://www.nuget.org/packages/NServiceBus.Heartbeat)
 - [NServiceBus.SagaAudit](https://www.nuget.org/packages/NServiceBus.SagaAudit)
 - [NServiceBus.ServicePlatform.Connector](https://www.nuget.org/packages/NServiceBus.ServicePlatform.Connector)
+- [ServiceControl.Contracts](https://www.nuget.org/packages/ServiceControl.Contracts)
 
 ### Interoperability
 
@@ -103,7 +104,4 @@ NServiceBus includes:
 
 - [Particular.TimeoutMigration](https://www.nuget.org/packages/Particular.TimeoutMigration)
 - [Particular.AzureTable.Export](https://www.nuget.org/packages/Particular.AzureTable.Export)
-- [Particular.EndpointThroughputCounter](https://www.nuget.org/packages/Particular.EndpointThroughputCounter)
-- [ServiceControl.Contracts](https://www.nuget.org/packages/ServiceControl.Contracts)
-- [ServiceControl.Monitoring.Data](https://www.nuget.org/packages/ServiceControl.Monitoring.Data)
 - [ServiceControl.TransportAdapter](https://www.nuget.org/packages/ServiceControl.TransportAdapter)
