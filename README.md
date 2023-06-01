@@ -11,7 +11,7 @@ This repository contains mandatory files that all repositories should have.
 * Changes will be applied to the default branch plus any `release-*` branches of a target repository containing a `.reposync.yml` marker file.
 * Only new or updated files are supported. Removing a previously synchronized file must be done manually.
 * This `README.md` file is not synchronized.
-* The `_config.yml` file is not synchronized. See [Centralized configuration](#centralized-configuration) below.
+* The `.config.yml` file is not synchronized. See [Centralized configuration](#centralized-configuration) below.
 
 ## Customization of synchronized files
 
@@ -24,7 +24,7 @@ The following files have an extension point that allow for customization:
 
 ## Centralized configuration
 
-Some broad-based configuration can be accomplished through the `_config.yml` file in this repository.
+Some broad-based configuration can be accomplished through the `.config.yml` file in this repository.
 
 ### Public vs. private repos
 
