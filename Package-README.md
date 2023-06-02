@@ -104,4 +104,3 @@ NServiceBus includes:
 
 - [Particular.TimeoutMigration](https://www.nuget.org/packages/Particular.TimeoutMigration)
 - [Particular.AzureTable.Export](https://www.nuget.org/packages/Particular.AzureTable.Export)
-- [ServiceControl.TransportAdapter](https://www.nuget.org/packages/ServiceControl.TransportAdapter)
