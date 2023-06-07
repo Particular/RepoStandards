@@ -1,5 +1,6 @@
 excludeOnPrivateRepo:
   # Repos without public users don't need this stuff
+  - Package-README.md
   - LICENSE.md
   - CONTRIBUTING.md
   - .github/SUPPORT.md
