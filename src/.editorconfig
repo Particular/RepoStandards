@@ -65,8 +65,8 @@ dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:err
 dotnet_diagnostic.IDE0017.severity = error
 dotnet_style_object_initializer = true:error
 
-dotnet_diagnostic.IDE0028.severity = suggestion
-dotnet_style_collection_initializer = true:suggestion
+dotnet_diagnostic.IDE0028.severity = error
+dotnet_style_collection_initializer = true:error
 
 dotnet_diagnostic.IDE0033.severity = error
 dotnet_style_explicit_tuple_names = true:error
