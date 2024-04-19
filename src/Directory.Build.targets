@@ -1,0 +1,7 @@
+<Project>
+
+  <PropertyGroup>
+    <NuGetAuditMode Condition="'$(PackAsTool)' == 'True'">all</NuGetAuditMode>
+  </PropertyGroup>
+
+</Project>
