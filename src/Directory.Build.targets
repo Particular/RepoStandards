@@ -1,7 +1,5 @@
 <Project>
 
-  <PropertyGroup>
-    <NuGetAuditMode Condition="'$(PackAsTool)' == 'true'">all</NuGetAuditMode>
-  </PropertyGroup>
+  <Import Project="AutomaticVersionRanges.targets" Condition="Exists('AutomaticVersionRanges.targets')" />
 
 </Project>
