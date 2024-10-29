@@ -20,7 +20,7 @@ The files managed by the synchronization tool cannot be customized in individual
 The following files have an extension point that allow for customization:
 
 * `Directory.Build.props`: Include any custom settings in a `Custom.Build.props` file located next to the `Directory.Build.props` file.
-`.gitignore`: Use [nested ignore files](https://git-scm.com/docs/gitignore#_description) to ignore custom files and folders.
+* `.gitignore`: Use [nested ignore files](https://git-scm.com/docs/gitignore#_description) to ignore custom files and folders.
 
 ## Centralized configuration
 
