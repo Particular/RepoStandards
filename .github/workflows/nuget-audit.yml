@@ -1,0 +1,40 @@
+name: NuGet Audit
+on:
+  push:
+    branches:
+      - master
+      - release-*
+  pull_request:
+  workflow_dispatch:
+env:
+  DOTNET_NOLOGO: true
+defaults:
+  run:
+    shell: pwsh
+jobs:
+  build:
+    name: Linux
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4.1.0
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore
+        id: restore
+        run:  echo CVECOUNT=$(dotnet restore src -v m | grep -c -e "NU190[1-4]") >> $GITHUB_OUTPUT
+      - name: List vulnerabilities
+        if: steps.restore.outputs.CVECOUNT > 0
+        run: dotnet list package --vulnerable --include-transitive --format json >> "${{ github.workspace }}/vulnerabilities.json"
+      - name: Collect Assets
+        if: steps.restore.outputs.CVECOUNT > 0
+        run: echo "blah step 1"
+      - name: Push to backend
+        if: steps.restore.outputs.CVECOUNT > 0
+        run: echo "blah step 2"
+      - name: Results
+        run: exit steps.restore.outputs.CVECOUNT
