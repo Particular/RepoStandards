@@ -3,9 +3,6 @@ on:
   workflow_dispatch:
 env:
   DOTNET_NOLOGO: true
-defaults:
-  run:
-    shell: bash
 jobs:
   build:
     name: Linux
@@ -13,12 +10,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
-        with:
-          fetch-depth: 0
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4.1.0
         with:
           global-json-file: global.json
       - name: Restore
         id: restore
-        run: dotnet restore src -v m
+        run: dotnet restore src
