@@ -4,6 +4,6 @@ on:
 env:
   DOTNET_NOLOGO: true
 jobs:
-  call-nuget-audit:
+  call-shared-nuget-audit:
     uses: particular/shared-workflows/.github/workflows/nuget-audit.yml@main
     secrets: inherit
