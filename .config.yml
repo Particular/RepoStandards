@@ -3,6 +3,7 @@ excludeOnPrivateRepo:
   - Package-README.md
   - LICENSE.md
   - CONTRIBUTING.md
+  - SECURITY.md
   - .github/SUPPORT.md
   - .github/ISSUE_TEMPLATE/config.yml
   
