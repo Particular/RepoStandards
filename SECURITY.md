@@ -4,4 +4,4 @@ Particular Software takes security issues very seriously. We appreciate your eff
 
 ## Reporting a Vulnerability
 
-Vulnerabilities can be reported by [submitting an issue](https://github.com/Particular/NServiceBus/security/advisories/new) through the security tab on our nservicebus repository. 
+Vulnerabilities can be reported by [submitting an issue](https://github.com/Particular/NServiceBus/security/advisories/new) through the security tab on our NServiceBus repository. 
