@@ -41,6 +41,9 @@ dotnet_style_qualification_for_field = false:error
 dotnet_style_qualification_for_method = false:error
 dotnet_style_qualification_for_property = false:error
 
+# Namespace/folder matching
+dotnet_style_namespace_match_folder = false
+
 # Language keywords vs BCL types preferences
 dotnet_diagnostic.IDE0049.severity = error
 dotnet_style_predefined_type_for_locals_parameters_members = true:error
@@ -322,6 +325,14 @@ dotnet_naming_rule.fields.style = camel_case
 dotnet_naming_rule.fields.symbols = fields
 dotnet_naming_rule.fields.severity = none
 
+dotnet_naming_rule.local_constants.severity = none
+dotnet_naming_rule.local_constants.symbols = local_constants
+dotnet_naming_rule.local_constants.style = camel_case
+
+dotnet_naming_rule.local_variables.severity = suggestion
+dotnet_naming_rule.local_variables.symbols = local_variables
+dotnet_naming_rule.local_variables.style = camel_case
+
 # Symbol specifications
 dotnet_naming_symbols.interface.applicable_kinds = interface
 dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
@@ -338,6 +349,12 @@ dotnet_naming_symbols.non_field_members.required_modifiers =
 dotnet_naming_symbols.fields.applicable_kinds = field
 dotnet_naming_symbols.fields.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
 dotnet_naming_symbols.fields.required_modifiers =
+
+dotnet_naming_symbols.local_constants.applicable_kinds = local
+dotnet_naming_symbols.local_constants.required_modifiers = const
+
+dotnet_naming_symbols.local_variables.applicable_kinds = local
+dotnet_naming_symbols.local_variables.required_modifiers =
 
 # Naming styles
 dotnet_naming_style.pascal_case.required_prefix =
