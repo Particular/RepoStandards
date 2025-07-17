@@ -22,5 +22,4 @@ excludeOnReleaseBranch:
   - .github/ISSUE_TEMPLATE/improvement_request.yml
   - .github/workflows/stale.yml
   - .github/workflows/update-dependencies.yml
-  - .github/dependabot.yml
   - SECURITY.md
