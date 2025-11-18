@@ -96,6 +96,7 @@ The `.editorconfig` file in this repository defines the shared code style for sy
 
 ### Decision making
 
+Some changes are more impactful than others. For example, this is the case when the proposed changes are more restrictive than the current settings. When this is the case:
 - Changes to standards should require more than a simple majority. Fifty percent is too low; around eighty percent agreement that a rule causes friction was mentioned as a rough benchmark.
 - The cost and impact of changing a rule should always be part of the argument, including the effect on existing repositories and branches.
 - Some improvements may not require new or changed coding standards at all, depending on the nature of the change.
