@@ -103,4 +103,4 @@ The `.editorconfig` file in this repository defines the shared code style for sy
 ### Batching and cadence
 
 - Batching changes is beneficial to reduce repeated breakage and churn across repositories.
-- A good rollout cadence can be to align larger batches of code style changes with LTS or STS releases.
+- A good rollout cadence can be to align larger batches of code style changes with STS releases.
