@@ -6,6 +6,7 @@
     <TreatWarningsAsErrors Condition="'$(Configuration)' != 'Debug'">true</TreatWarningsAsErrors>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <AnalysisLevel Condition="'$(AnalysisLevel)' == ''">5.0</AnalysisLevel>
+    <InterceptorsNamespaces>$(InterceptorsNamespaces);NServiceBus</InterceptorsNamespaces>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <NuGetAuditLevel>low</NuGetAuditLevel>
     <NuGetAuditMode Condition="'$(NuGetAuditMode)' == ''">all</NuGetAuditMode>
