@@ -81,3 +81,27 @@ exclusions:
 - src/NServiceBus.snk
 - LICENSE.md
 ```
+
+## Code style and .editorconfig
+
+The `.editorconfig` file in this repository defines the shared code style for synchronized repositories. Changes to coding standards, including `.editorconfig`, should be treated as larger/impactful decisions and follow a careful review process.
+
+### General principles
+
+- Coding standards should remain stable and not change often, but they are not frozen. Challenging existing rules is acceptable, yet changes must come with strong justification.
+- The exact standard matters less than having a consistent one that everyone follows. Consistency is valuable in its own because it reduces cognitive overhead when working across repositories.
+- Changing standards is expensive because updates ripple through downstream repositories.
+- A standard can still be a good standard even if not everyone is happy with it.
+- Different rules impose different levels of friction; this should be considered when proposing changes.
+
+### Decision making
+
+Some changes are more impactful than others. For example, this is the case when the proposed changes are more restrictive than the current settings. When this is the case:
+- Changes to standards should require more than a simple majority. Fifty percent is too low; around eighty percent agreement that a rule causes friction was mentioned as a rough benchmark.
+- The cost and impact of changing a rule should always be part of the argument, including the effect on existing repositories and branches.
+- Some improvements may not require new or changed coding standards at all, depending on the nature of the change.
+
+### Batching and cadence
+
+- Batching changes is beneficial to reduce repeated breakage and churn across repositories.
+- A good rollout cadence can be to align larger batches of code style changes with STS releases.
