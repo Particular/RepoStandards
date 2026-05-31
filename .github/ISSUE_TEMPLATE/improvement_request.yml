@@ -20,6 +20,14 @@ body:
     validations:
       required: true
   - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: What benefit does this provide to users?
+      placeholder: "e.g. reduced cost, lower latency, simpler code, fewer errors"
+    validations:
+      required: false
+  - type: textarea
     id: additional-context
     attributes:
       label: Additional Context
