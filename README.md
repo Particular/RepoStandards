@@ -24,7 +24,7 @@ This repository contains mandatory files that all repositories should have.
 
 ### Customization of synchronized files
 
-The files managed by the synchronization tool cannot be customized in individual code repositories (without changes to the `.reposync.yml` file), because a PR will be raise to override any customizations when the scheduled automation runs.
+The files managed by the synchronization tool cannot be customized in individual code repositories (without changes to the `.reposync.yml` file), because a PR will be raised to override any customizations when the scheduled automation runs.
 That being said, the following files have an extension point that allow for customization without any extra settings:
 
 - `Directory.Build.props`: Include any custom settings in a `Custom.Build.props` file located next to the `Directory.Build.props` file.
