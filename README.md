@@ -3,8 +3,7 @@
 This repository contains mandatory files that all repositories should have. 
 
 > [!WARNING]
-> Any change to this repository creates a PR for all supported branches in all the product repositories, this is why this repository has different merging rules than any of our other repositories.
-> In order to merge any PR, approval from the [@repostandards-admins group](https://github.com/orgs/Particular/teams/repostandards-admins) is required.
+> Any change to this repository creates PRs for all branches in all synchronized repositories, so merging a PR in this repo requires approval from the [@repostandards-admins group](https://github.com/orgs/Particular/teams/repostandards-admins).
 
 ## How it works
 
@@ -16,7 +15,7 @@ This repository contains mandatory files that all repositories should have.
 
 ## How the resulting PRs are handled
 
-- Once the [@repostandards-admins group](https://github.com/orgs/Particular/teams/repostandards-admins) considers the opened PRs on this repository merits the work of handling all the resulting PRs, they will coordinate to merge them in a short window of time.
+- Once the [@repostandards-admins group](https://github.com/orgs/Particular/teams/repostandards-admins) determines the open PRs have enough value to justify the work of handling all the resulting synchronization PRs, they will coordinate to merge them in a short window of time.
 - After the automation that detects the changes runs and finishes opening all the PRs, they will coordinate to work on merging all the PRs.
 - Given these PRs most of the times don't represent external changes, the changes won't be released.
 
