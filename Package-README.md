@@ -36,6 +36,8 @@ Use this URL in MCP clients that support **streamable HTTP** remote servers.
 
 See the full guide: https://docs.particular.net/get-started/mcp-server
 
+<!-- mcp-name: net.particular/particular-docs-mcp -->
+
 ## Packages
 
 Find links to [all our NuGet packages](https://docs.particular.net/nservicebus/platform-nuget-packages) in our documentation.
