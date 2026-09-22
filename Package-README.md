@@ -28,6 +28,14 @@ NServiceBus includes:
 - Check out our other [tutorials](https://docs.particular.net/tutorials/) and [samples](https://docs.particular.net/samples/).
 - Get [help with a proof-of-concept](https://particular.net/proof-of-concept).
 
+### Remote MCP endpoint
+
+`https://docs.particular.net/mcp`
+
+Use this URL in MCP clients that support **streamable HTTP** remote servers.
+
+See the full guide: https://docs.particular.net/get-started/mcp-server
+
 ## Packages
 
 Find links to [all our NuGet packages](https://docs.particular.net/nservicebus/platform-nuget-packages) in our documentation.
