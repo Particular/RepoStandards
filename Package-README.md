@@ -28,15 +28,13 @@ NServiceBus includes:
 - Check out our other [tutorials](https://docs.particular.net/tutorials/) and [samples](https://docs.particular.net/samples/).
 - Get [help with a proof-of-concept](https://particular.net/proof-of-concept).
 
-### Remote MCP endpoint
+### Coding agents
 
-`https://docs.particular.net/mcp`
-
-Use this URL in MCP clients that support **streamable HTTP** remote servers.
-
-See the full guide: https://docs.particular.net/get-started/mcp-server
+An MCP server at `https://docs.particular.net/mcp` supporting streamable HTTP enables coding agents to search and retrieve documentation for this package and other NServiceBus packages. Instructions can be found in the [MCP server setup guide](https://docs.particular.net/get-started/mcp-server).
 
 <!-- mcp-name: net.particular/particular-docs-mcp -->
+
+In addition, all documentation can be browsed as markdown only, starting at `https://docs.particular.net/llms.txt`.
 
 ## Packages
 
