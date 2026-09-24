@@ -35,6 +35,7 @@ An MCP server at `https://docs.particular.net/mcp` supporting streamable HTTP en
 <!-- mcp-name: net.particular/particular-docs-mcp -->
 
 In addition, all documentation can be browsed as markdown only, starting at `https://docs.particular.net/llms.txt`.
+The documentation search endpoint can also return structured JSON results, for example: `https://docs.particular.net/search?q=sga+timeout&format=json`.
 
 ## Packages
 
