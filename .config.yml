@@ -13,6 +13,12 @@ excludeOnPrivateRepo:
   
   # No GitHub release artifacts to scan
   - .github/workflows/virus-scan.yml
+
+  # Private repos don't usually have releases/deployments
+  - .release/GitReleaseManager.yaml
+  - .release/.templates/default/issue-note.sbn
+  - .release/.templates/default/create/footer.sbn
+
 excludeOnReleaseBranch:
   # GitHub only reads this info on the default branch
   - .github/SUPPORT.md
